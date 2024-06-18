@@ -33,14 +33,14 @@ This repo aims at documenting everything I do till I submit my dissertation.
 
   we comprehensively compare seven data imputation methods:
   
-  - mean imputation
-  - median imputation
-  - kNN imputation
-  - predictive mean matching
-  - Bayesian Linear Regression (norm)
-  - Linear Regression
-  - non-Bayesian (norm.nob)
-  - random sample
+    - mean imputation
+    - median imputation
+    - kNN imputation
+    - predictive mean matching
+    - Bayesian Linear Regression (norm)
+    - Linear Regression
+    - non-Bayesian (norm.nob)
+    - random sample
   
   We have used five different numeric datasets obtained from UCI machine learning repository for analyzing and comparing performance of the data imputation methods. Performance of the data imputation methods is 
   assessed using **Normalized Root Mean Square Error (RMSE)** method. The results of analysis show that kNN imputation method outperforms the other methods.
@@ -55,9 +55,9 @@ This repo aims at documenting everything I do till I submit my dissertation.
 
   Generally, these missing data imputation methods can be categorised into three kinds:
   
-  - prediction methods
-  - interpolation methods
-  - statistical learning methods.
+    - prediction methods
+    - interpolation methods
+    - statistical learning methods.
     
   To assess their performance, these methods are compared from different aspects in this paper, including *reconstruction errors*, *statistical behaviours* and *running speeds*.
   
