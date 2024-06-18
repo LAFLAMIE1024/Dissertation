@@ -59,7 +59,7 @@ This repo aims at documenting everything I do till I submit my dissertation.
     - interpolation methods
     - statistical learning methods.
     
-  To assess their performance, these methods are compared from different aspects in this paper, including *reconstruction errors*, *statistical behaviours* and *running speeds*.
+  To assess their performance, these methods are compared from different aspects in this paper, including **reconstruction errors**, **statistical behaviours** and **running speeds**.
   
 
   
