@@ -29,7 +29,7 @@ This repo aims at documenting everything I do till I submit my dissertation.
 
   Can't do RS system (need numerical, continuous data)
 
-  - [**Comparison of Performance of Data Imputation Methods for Numeric Dataset**](https://www.tandfonline.com/doi/full/10.1080/08839514.2019.1637138)
+  1. [**Comparison of Performance of Data Imputation Methods for Numeric Dataset**](https://www.tandfonline.com/doi/full/10.1080/08839514.2019.1637138)
 
   we comprehensively compare seven data imputation methods:
   
@@ -51,7 +51,7 @@ This repo aims at documenting everything I do till I submit my dissertation.
 
   Appropriately dealing with missing values is important and challenging task because it requires i) careful examination of all instances of data to identify **pattern of missingness in the data (Missing at random, Missing not at random, missing completely at random )** and ii) clear understanding of different imputation techniques.
 
-  - [**Missing traffic data: comparison of imputation methods**](https://ietresearch.onlinelibrary.wiley.com/doi/full/10.1049/iet-its.2013.0052)
+  2. [**Missing traffic data: comparison of imputation methods**](https://ietresearch.onlinelibrary.wiley.com/doi/full/10.1049/iet-its.2013.0052)
 
   Generally, these missing data imputation methods can be categorised into three kinds:
   
