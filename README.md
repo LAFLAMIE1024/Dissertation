@@ -49,7 +49,7 @@ This repo aims at documenting everything I do till I submit my dissertation.
   
   ...
 
-  Appropriately dealing with missing values is important and challenging task because it requires i) careful examination of all instances of data to identify **pattern of missingness in the data (Missing at random, Missing not at random, missing completely at random )** and ii) clear understanding of different imputation techniques.
+  Appropriately dealing with missing values is important and challenging task because it requires i) careful examination of all instances of data to identify **pattern of missingness in the data (Completely at Random (MCAR), Missing at Random (MAR), and Not Missing at Random (NMAR))** and ii) clear understanding of different imputation techniques.
 
   2. [**Missing traffic data: comparison of imputation methods**](https://ietresearch.onlinelibrary.wiley.com/doi/full/10.1049/iet-its.2013.0052)
 
@@ -62,7 +62,10 @@ This repo aims at documenting everything I do till I submit my dissertation.
   To assess their performance, these methods are compared from different aspects in this paper, including **reconstruction errors**, **statistical behaviours** and **running speeds**.
   
 
-  
+- 20/06/2024
 
-  
+  Normalized Root Mean Square Error (NRMSE) : scales are different for different features of the dataset. Once NRMSE is calculated for each variable in the dataset then Mean of NRMSE is calculated for the dataset and is used as a measure to assess performance of the imputation methods ... MNAR is often considered as worst missing type as it may lead to biased result whereas MCAR and MAR might lead to loss of statistical power [1](https://www.tandfonline.com/doi/full/10.1080/08839514.2019.1637138)
+
+  Basically, NRMSE is calculating the difference between imputed value and the normalized true value.
  
+  The task of the data set is not necessary to be classfication, that is, it could also be regression, clustering.
