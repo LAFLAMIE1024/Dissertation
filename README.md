@@ -69,3 +69,7 @@ This repo aims at documenting everything I do till I submit my dissertation.
   Basically, NRMSE is calculating the difference between imputed value and the normalized true value.
  
   The task of the data set is not necessary to be classfication, that is, it could also be regression, clustering.
+
+- 24/06/2024
+
+  Problems should be more practical. (Think: Why calculate the accuracy of imputed values? How could it help improving model performance? Maybe introducing Deep Learning?)
