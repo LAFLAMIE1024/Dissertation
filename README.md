@@ -73,3 +73,7 @@ This repo aims at documenting everything I do till I submit my dissertation.
 - 24/06/2024
 
   Problems should be more practical. (Think: Why calculate the accuracy of imputed values? How could it help improving model performance? Maybe introducing Deep Learning?)
+
+- 27/06/2024
+
+  Test the performance of random forest for imputing missing values by starting from features with least missing values.
