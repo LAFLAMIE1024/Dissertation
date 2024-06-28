@@ -75,5 +75,36 @@ This repo aims at documenting everything I do till I submit my dissertation.
   Problems should be more practical. (Think: Why calculate the accuracy of imputed values? How could it help improving model performance? Maybe introducing Deep Learning?)
 
 - 27/06/2024
+  Random forest can not only impute missing values by starting from features with least missing values, but can also be applied to prediction after imputing value.
+  The problem is: will the machine learning model be affected by the values imputed using the same ML model? I think it depends on how many missing values are there, and what type of missing they are.
+  * If there is high proportion (over 50%?) of missing values
+  * 
+- 28/
+  Missing At Random (MAR)
+  MAR data occurs when the probability of data being missing depends only on the observed data and not on the missing data itself. In other words, the missingness can be explained by variables for which you have complete information. There is a pattern in the missing values, but this pattern can be explained by other observed variables.
+  
+  Example: In a survey, younger respondents might be less likely to answer certain questions. If the missingness is related to age (which is recorded) but not to the specific question being asked, the data is MAR.
 
-  Test the performance of random forest for imputing missing values by starting from features with least missing values.
+  How to handle?
+
+  1. Maximum Likelihood Estimation (MLE)
+Example: In a clinical trial, some patients drop out due to side effects, and the dropout is related to recorded baseline characteristics like age and initial health status.
+
+Application:
+
+Step 1: Specify a likelihood function that includes the observed data and the missing data mechanism.
+Step 2: Use an algorithm (e.g., Expectation-Maximization) to estimate the parameters that maximize the likelihood function.
+Step 3: Use these parameter estimates to make inferences about the population.
+
+  2. Inverse Probability Weighting
+[Review of inverse probability weighting for dealing with missing data](https://doi.org/10.1177/0962280210395740)
+
+"Almost all datasets collected for medical or social research are missing some information that was intended to be collected. This complicates their analysis. A commonly used approach is to exclude individuals with missing data. However, estimates obtained from this ‘complete-case’ (CC) analysis may be biased if the excluded individuals are systematically different from those included. Inverse probability weighting (IPW) is one of several methods that can reduce this bias. In this method, complete cases are weighted by the inverse of their probability of being a complete case."
+
+
+  Missing Not At Random (MNAR)
+  MNAR occurs when the missingness of data is related to the unobserved data itself, which is not included in the dataset. This type of missing data has a specific pattern that cannot be explained by observed variables.
+  
+  Example: In a survey about income, individuals with very high or very low incomes might be less likely to report their earnings. This results in missing data that is systematically related to the income variable itself
+  
+  Understanding the type of missing data is crucial because it determines the appropriate strategy for handling missing values and ensuring the integrity of statistical analyses. Techniques such as handling missing values, how to handle missing values, how to fill missing values in dataset, and missing value imputation are essential for mitigating biases and ensuring robust results in scenarios such as sentiment analysis python, python sentiment analysis, and how to do sentiment analysis in python.
