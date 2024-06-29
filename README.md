@@ -79,7 +79,7 @@ This repo aims at documenting everything I do till I submit my dissertation.
   The problem is: will the machine learning model be affected by the values imputed using the same ML model? I think it depends on how many missing values are there, and what type of missing they are.
   * If there is high proportion (over 50%?) of missing values
   * 
-- 28/
+- 28/06/2024
   Missing At Random (MAR)
   MAR data occurs when the probability of data being missing depends only on the observed data and not on the missing data itself. In other words, the missingness can be explained by variables for which you have complete information. There is a pattern in the missing values, but this pattern can be explained by other observed variables.
   
@@ -101,10 +101,17 @@ Step 3: Use these parameter estimates to make inferences about the population.
 
 "Almost all datasets collected for medical or social research are missing some information that was intended to be collected. This complicates their analysis. A commonly used approach is to exclude individuals with missing data. However, estimates obtained from this ‘complete-case’ (CC) analysis may be biased if the excluded individuals are systematically different from those included. Inverse probability weighting (IPW) is one of several methods that can reduce this bias. In this method, complete cases are weighted by the inverse of their probability of being a complete case."
 
-
   Missing Not At Random (MNAR)
   MNAR occurs when the missingness of data is related to the unobserved data itself, which is not included in the dataset. This type of missing data has a specific pattern that cannot be explained by observed variables.
   
   Example: In a survey about income, individuals with very high or very low incomes might be less likely to report their earnings. This results in missing data that is systematically related to the income variable itself
   
   Understanding the type of missing data is crucial because it determines the appropriate strategy for handling missing values and ensuring the integrity of statistical analyses. Techniques such as handling missing values, how to handle missing values, how to fill missing values in dataset, and missing value imputation are essential for mitigating biases and ensuring robust results in scenarios such as sentiment analysis python, python sentiment analysis, and how to do sentiment analysis in python.
+
+- 29/06/2024
+  
+  Cited from [Multiple imputation by chained equations: what is it and how does it work?](https://www.ncbi.nlm.nih.gov/pmc/articles/PMC3074241/)
+  
+  Multiple imputation has a number of advantages over these other missing data approaches. Multiple imputation involves filling in the missing values multiple times, creating multiple “complete” datasets. ... On a simple level, if there is not much information in the observed data (used in the imputation model) regarding the missing values, the imputations will be very variable, leading to high standard errors in the analyses. In contrast, if the observed data are highly predictive of the missing values the imputations will be more consistent across imputations, resulting in smaller, but still accurate, standard errors (Greenland and Finkle, 1995).
+
+  
