@@ -112,6 +112,10 @@ Step 3: Use these parameter estimates to make inferences about the population.
   
   Cited from [Multiple imputation by chained equations: what is it and how does it work?](https://www.ncbi.nlm.nih.gov/pmc/articles/PMC3074241/)
   
-  Multiple imputation has a number of advantages over these other missing data approaches. Multiple imputation involves filling in the missing values multiple times, creating multiple “complete” datasets. ... On a simple level, if there is not much information in the observed data (used in the imputation model) regarding the missing values, the imputations will be very variable, leading to high standard errors in the analyses. In contrast, if the observed data are highly predictive of the missing values the imputations will be more consistent across imputations, resulting in smaller, but still accurate, standard errors (Greenland and Finkle, 1995).
+  Multiple imputation has a number of advantages over these other missing data approaches. Multiple imputation involves **filling in the missing values multiple times**, creating multiple “complete” datasets. ... On a simple level,
+
+  if there is **not much information in the observed data (used in the imputation model) regarding the missing values**, the **imputations will be very variable**, leading to **high standard errors** in the analyses.
+
+  In contrast, if the observed data are highly predictive of the missing values the imputations will be more consistent across imputations, resulting in smaller, but still accurate, standard errors (Greenland and Finkle, 1995).
 
   
