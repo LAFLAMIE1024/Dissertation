@@ -75,11 +75,14 @@ This repo aims at documenting everything I do till I submit my dissertation.
   Problems should be more practical. (Think: Why calculate the accuracy of imputed values? How could it help improving model performance? Maybe introducing Deep Learning?)
 
 - 27/06/2024
+  
   Random forest can not only impute missing values by starting from features with least missing values, but can also be applied to prediction after imputing value.
-  The problem is: will the machine learning model be affected by the values imputed using the same ML model? I think it depends on how many missing values are there, and what type of missing they are.
-  * If there is high proportion (over 50%?) of missing values
-  * 
+  The problem is: will the machine learning model be affected by the values imputed using the same ML model? I think it depends on how many missing values are there (How to define? 20? 30? 50?), and what type of missing they are (How to diagnose?).
+  Comment on 30/06/2024: According to some papers, 50% could be considered really high proportion of missing data.
+  And so far, the most effective way of diagnose type of missing data is figuring manually.
+ 
 - 28/06/2024
+  
   Missing At Random (MAR)
   MAR data occurs when the probability of data being missing depends only on the observed data and not on the missing data itself. In other words, the missingness can be explained by variables for which you have complete information. There is a pattern in the missing values, but this pattern can be explained by other observed variables.
   
