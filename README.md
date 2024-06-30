@@ -77,13 +77,16 @@ This repo aims at documenting everything I do till I submit my dissertation.
 - 27/06/2024
   
   Random forest can not only impute missing values by starting from features with least missing values, but can also be applied to prediction after imputing value.
+  
   The problem is: will the machine learning model be affected by the values imputed using the same ML model? I think it depends on how many missing values are there (How to define? 20? 30? 50?), and what type of missing they are (How to diagnose?).
+
   Comment on 30/06/2024: According to some papers, 50% could be considered really high proportion of missing data.
   And so far, the most effective way of diagnose type of missing data is figuring manually.
  
 - 28/06/2024
   
-  Missing At Random (MAR)
+  * Missing At Random (MAR)
+    
   MAR data occurs when the probability of data being missing depends only on the observed data and not on the missing data itself. In other words, the missingness can be explained by variables for which you have complete information. There is a pattern in the missing values, but this pattern can be explained by other observed variables.
   
   Example: In a survey, younger respondents might be less likely to answer certain questions. If the missingness is related to age (which is recorded) but not to the specific question being asked, the data is MAR.
@@ -104,7 +107,8 @@ Step 3: Use these parameter estimates to make inferences about the population.
 
 "Almost all datasets collected for medical or social research are missing some information that was intended to be collected. This complicates their analysis. A commonly used approach is to exclude individuals with missing data. However, estimates obtained from this ‘complete-case’ (CC) analysis may be biased if the excluded individuals are systematically different from those included. Inverse probability weighting (IPW) is one of several methods that can reduce this bias. In this method, complete cases are weighted by the inverse of their probability of being a complete case."
 
-  Missing Not At Random (MNAR)
+  * Missing Not At Random (MNAR)
+    
   MNAR occurs when the missingness of data is related to the unobserved data itself, which is not included in the dataset. This type of missing data has a specific pattern that cannot be explained by observed variables.
   
   Example: In a survey about income, individuals with very high or very low incomes might be less likely to report their earnings. This results in missing data that is systematically related to the income variable itself
