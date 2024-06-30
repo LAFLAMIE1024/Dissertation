@@ -1,8 +1,8 @@
 # Dissertation
-## Progress Document
+
 This repo aims at documenting everything I do till I submit my dissertation.
 
-## Understanding
+# Content for poster
 
 ## Background
 Three sentences max. Persuade reader you have novel, interesting question(s) and hypothesis.
@@ -27,13 +27,14 @@ needing to be there.\
 Keep font size of all text (even graph labels) as big or bigger than in rest of poster.\
 
 ## Aims
-Explain why outcome is/will be interesting. Don’t assume it’s obvious.
+Explain why outcome is/will be interesting. Don’t assume it’s obvious.\
 Do not use too many sentences. Include a few sentences about what you plan to
-do next. As for the other sections, don’t feel like you need to fill the entire
+do next.\
+As for the other sections, don’t feel like you need to fill the entire
 box. 
 
 ## Literature cited 
-Author, J. 2020. Article title.
+Author, J. 2020. Article title.\
 Journal of bla bla 1:1-2.
 
 ## Acknowledgments
