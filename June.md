@@ -91,11 +91,11 @@
   1. Maximum Likelihood Estimation (MLE)
 Example: In a clinical trial, some patients drop out due to side effects, and the dropout is related to recorded baseline characteristics like age and initial health status.
 
-Application:
+  Application:
 
-Step 1: Specify a likelihood function that includes the observed data and the missing data mechanism.
-Step 2: Use an algorithm (e.g., Expectation-Maximization) to estimate the parameters that maximize the likelihood function.
-Step 3: Use these parameter estimates to make inferences about the population.
+  Step 1: Specify a likelihood function that includes the observed data and the missing data mechanism.
+  Step 2: Use an algorithm (e.g., Expectation-Maximization) to estimate the parameters that maximize the likelihood function.
+  Step 3: Use these parameter estimates to make inferences about the population.
 
   2. Inverse Probability Weighting
 [Review of inverse probability weighting for dealing with missing data](https://doi.org/10.1177/0962280210395740)
