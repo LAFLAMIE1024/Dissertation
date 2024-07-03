@@ -3,6 +3,7 @@
 Document everything till I submit dissertation.
 
 # Content for poster
+![image](https://github.com/LAFLAMIE1024/Dissertation/assets/73602420/9fc1747f-f3fa-4743-941a-574e75886e4a)
 
 ## Background
 Three sentences max. Persuade reader you have novel, interesting question(s) and hypothesis.
