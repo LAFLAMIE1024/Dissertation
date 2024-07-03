@@ -1,6 +1,6 @@
 # Dissertation
 
-This repo aims at documenting everything I do till I submit my dissertation.
+Document everything till I submit dissertation.
 
 # Content for poster
 
