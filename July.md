@@ -17,7 +17,12 @@
         * KNN imputation, Multiple imputation, creating several data sets rather than one filled with single imputed values.
         * KDE imputation (Figure out the distribution of observed data, and try to sample values from the estimated distribution and impute them)
         * Machine Learning Techniques (Use algorithms like Random Forest or XGBoost to predict missing values based on other features in the dataset)
-  * Experiment: Use a complete data set/simulated data set, and generate some missing values (MCAR is not as informative as MAR does). Depending on the type of missing values created, try all methods mentioned above. (After imputation, **evaluate the accuracy of imputation**.) **See if the performance of classification/clustering algorithm is improved after preprocessing**.
+          
+  And the experiment of testing how well we handled can be conducted like:
+  
+  1. Use a complete data set/simulated data set, and generate some missing values (MCAR is not as informative as MAR does).
+  2. Depending on the type of missing values created, try all methods mentioned above. (After imputation, **evaluate the accuracy of imputation**.)
+  3. **See if the performance of classification/clustering algorithm is improved after preprocessing**.
   
 - 01/07/2024
 - 01/07/2024
