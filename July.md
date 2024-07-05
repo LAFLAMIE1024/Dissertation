@@ -23,20 +23,24 @@
           Figure out the distribution of observed data, and try to sample values from the estimated distribution and impute them.
         * Machine Learning Techniques\
           Use algorithms like Random Forest or XGBoost to predict missing values based on other features in the dataset.
-          
-  And the experiment of testing how well we handled can be conducted like:
+  Then we can apply our statistical model or machine learning model on this preprocessed data set for prediction or classification.
+
+  Thus, the experiment of testing how well we handled can be conducted like:
   1. Choose a real complete data set/simulated data set\
-- If real, Size? Number of features? Continuous or discrete feature?
-- If simulated, distribution?
-  3. Generate some missing values (MCAR is not as informative as MAR does).
-  4. Depending on the type of missing values created, try all methods mentioned above. (After imputation, **evaluate the accuracy of imputation**.)
-  5. **See if the performance of classification/clustering algorithm is improved after preprocessing**.
+    - If real, Size? Number of features? Continuous or discrete feature?
+    - If simulated, distribution (Gaussian? Gamma?)?
+  2. Generate some missing values (MCAR is not as informative as MAR does).
+  3. Depending on the type of missing values created, try all methods mentioned above.\
+     After imputation, **evaluate the accuracy of imputation**.
+  4. **See if the performance of classification/clustering algorithm is improved after preprocessing**.
   
 - 04/07/2024
 
   Finding out if there is hidden correlation between variables by using random forest?
   
 - 05/07/2024
+
+
   
 - 01/07/2024
 - 01/07/2024
