@@ -12,8 +12,8 @@
   * Handle them according to their type, and there are many ways to deal with these missing entries:
       - Complete Analysis (may result in losing information, or lead to biased analysis)\
         but suitable for small proportion of data MCAR, which means that directly deleting them is not likely to cause huge impact on the analysis, and it is time efficient.
-      - Treat the missingness as an indicator\ 
-        Create a new binary feature indicating whether a value was missing. This can sometimes improve model performance\ 
+      - Treat the missingness as an indicator\
+        Create a new binary feature indicating whether a value was missing. This can sometimes improve model performance\
 (Mentioned in this blog [Effective Strategies for Handling Missing Values in Data Analysis](https://www.analyticsvidhya.com/blog/2021/10/handling-missing-value/) in section: How to Use “Missingness” as a Feature? )
       - Imputation
         * KNN imputation, Multiple imputation\ 
