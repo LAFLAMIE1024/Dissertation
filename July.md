@@ -16,7 +16,7 @@
         Create a new binary feature indicating whether a value was missing. This can sometimes improve model performance\
 (Mentioned in this blog [Effective Strategies for Handling Missing Values in Data Analysis](https://www.analyticsvidhya.com/blog/2021/10/handling-missing-value/) in section: How to Use “Missingness” as a Feature? )
       - Imputation
-        * KNN imputation, Multiple imputation\ 
+        * KNN imputation, Multiple imputation\
           creating several data sets rather than one filled with single imputed values.
         * KDE + sample imputation\
           Figure out the distribution of observed data, and try to sample values from the estimated distribution and impute them
