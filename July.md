@@ -40,7 +40,8 @@
   
 - 05/07/2024
 
-
+  Missing data is not necessary of one type. It could be MAR and MNAR at the same time.
+  Being metioned in this blog [Diagnosing Type of Missing Data (MCAR, MAR, MNAR)](https://www.reddit.com/r/AskStatistics/comments/17nigqk/diagnosing_type_of_missing_data_mcar_mar_mnar/), we can't do much about MCAR (deletion) and MNAR (better improve data set) as both of they usually do not provide further information of missingness. So what we are looking for is "the patterns in the missingness", and "do the records where a given feature is missing have a different distribution than the records where the feature isn't missing? If the answer to that question is a clear "yes", then that feature isn't missing at random. A clear "no" means the feature is missing completely random. If it's less clear then the feature then it can likely said to be missing at random, but could also go either way. It could also be the result of multiple sources of missingness."
   
 - 01/07/2024
 - 01/07/2024
