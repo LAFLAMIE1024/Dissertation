@@ -17,11 +17,12 @@
 (Mentioned in this blog [Effective Strategies for Handling Missing Values in Data Analysis](https://www.analyticsvidhya.com/blog/2021/10/handling-missing-value/) in section: How to Use “Missingness” as a Feature? )
       - Imputation
         * KNN imputation, Multiple imputation\
-          creating several data sets rather than one filled with single imputed values.
+          Create several data sets rather than one filled with single imputed values.\
+          Inefficient when it comes to large data set.
         * KDE + sample imputation\
-          Figure out the distribution of observed data, and try to sample values from the estimated distribution and impute them
+          Figure out the distribution of observed data, and try to sample values from the estimated distribution and impute them.
         * Machine Learning Techniques\
-          Use algorithms like Random Forest or XGBoost to predict missing values based on other features in the dataset
+          Use algorithms like Random Forest or XGBoost to predict missing values based on other features in the dataset.
           
   And the experiment of testing how well we handled can be conducted like:
   1. Use a complete data set/simulated data set, and generate some missing values (MCAR is not as informative as MAR does).
