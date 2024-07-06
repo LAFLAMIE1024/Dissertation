@@ -59,13 +59,11 @@
   
   * Clustering points (segmenting data) and handle missing value using cluster-based imputation -> somehow finding out pattern
   * [Use random forest for imputation](https://zhuanlan.zhihu.com/p/635931775) ->  start from the feature with least missing values, which is our target column, and train the random forest on the non-missing part of the target column. After that, we predict missing values in this target column using the other features as input.
+  遍历所有的特征，从缺失最少的开始进⾏填补（因为填补缺失最少的特征所需要的准确信息最少）。填补⼀个特征时(次特征作为标签值)，先将其他特征的缺失值⽤0代替，每完成⼀次回归预测，就将预测值放到原本的特征矩阵中，再继续填补下⼀个特征。每⼀次填补完毕，有缺失值的特征会减少⼀个，所以每次循环后，需要⽤0来填补的特征就越来越少。当进⾏到最后⼀个特征时（这个特征应该是所有特征中缺失值最多的），已经没有
+任何的其他特征需要⽤0来进⾏填补了，⽽我们已经使⽤回归为其他特征填补了⼤量有效信息，可以⽤来填补缺失最多的特征。
+  * Self-regression model
   
-  遍历所有的特征，从缺失最少的开始进⾏填补（因为填补缺失最少的特征所需要的准确信息最少）。
-填补⼀个特征时(次特征作为标签值)，先将其他特征的缺失值⽤0代替，每完成⼀次回归预测，就将预测值放到原本的特征矩阵
-中，再继续填补下⼀个特征。每⼀次填补完毕，有缺失值的特征会减少⼀个，所以每次循环后，需要⽤0来
-填补的特征就越来越少。当进⾏到最后⼀个特征时（这个特征应该是所有特征中缺失值最多的），已经没有
-任何的其他特征需要⽤0来进⾏填补了，⽽我们已经使⽤回归为其他特征填补了⼤量有效信息，可以⽤来填
-补缺失最多的特征。
+  
   
 - 07/07/2024
 
