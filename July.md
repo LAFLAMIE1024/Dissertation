@@ -41,7 +41,7 @@
 
   As data MCAR is not informative of missingness, it would be more practical to investigate data MAR and MNAR (?).
 
-  The experiment of testing how well we handled can be conducted like:
+  The experiment can be conducted like:
     * Choose a real complete data set/simulated data set\
       - If real, Size? Number of features? Continuous or discrete feature?
       - If simulated, distribution (Gaussian? Gamma?)?
@@ -52,9 +52,26 @@
     * **See if the accuracy of classification/clustering algorithm is reachieved, or even improved after preprocessing**.
       Theoretically, records with missing values imputed can help reducing bias or provide more information for the classification model.
   
+- 06/07/2024
+
+  Imputations methods are limited. But the way of creating missing data could be various.
+  "either **segmenting your data according to missingness** or **making it clear some other way**."
+  
+  * Clustering points (segmenting data) and handle missing value using cluster-based imputation -> somehow finding out pattern
+  * Use random forest for segmenting ->  creating new features indicating which features are missing
+  
+  
+- 07/07/2024
+
+  
 - 01/07/2024
+
+
+  
 - 01/07/2024
+
+  
 - 01/07/2024
-- 01/07/2024
-- 01/07/2024
+
+  
 - 01/07/2024
