@@ -74,6 +74,9 @@
   And the authors pose the missing data problem as an "optimization problem", in which they optimize the missing values in all data points and dimensions simultaneously
   ![image](https://github.com/LAFLAMIE1024/Dissertation/assets/73602420/001ea987-df78-42a4-9466-18829dc92189)
   So complicated.
+
+  But it shows comprehensive experiment.
+  Now I know what to do with mine: real data set only. don't impute mcar, focus on mar and mnar.
   
 - 01/07/2024
 
