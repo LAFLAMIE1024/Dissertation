@@ -80,8 +80,9 @@
   And data MAR **ONLY** depend on other observable information, which means that MAR is less general than MNAR.
   
 - 14/07/2024
-  MCAR could be imputed when we are evaluaating the performance of predictive models on various data sets. (of different fields)
-  Difficult to diagnose the hidden pattern within the data set -> Generate missing value by using your own designed scheme -> Evaluate the proximity of imputed values and original values
+  
+  MCAR could be imputed when we are evaluaating the performance of predictive models on various data sets. (of different fields)\
+  Difficult to diagnose the hidden pattern within the data set -> Generate missing value by using your own designed scheme -> Evaluate the proximity of imputed values and original values\
   Expecting to improve the performance of predictive model after imputation -> Evaluate the accuracy, recall and F1 score of models on the same data set.
   
   
