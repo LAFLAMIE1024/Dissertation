@@ -86,8 +86,13 @@
   Expecting to improve the performance of predictive model after imputation -> Evaluate the accuracy, recall and F1 score of models on the same data set.
   
   
-- 01/07/2024
+- 21/07/2024
+  
+  "... Complete case analyses, which are based on only observations for which all relevant data are present and no fields are missing, of a data set containing MAR data may or may not result in bias. If the complete case analysis is biased, however, proper accounting for the known factors (in the above example, sex) can produce unbiased results in analysis. ... As with MAR data, complete case analysis of a data set containing MNAR data may or may not result in bias; if the complete case analysis is biased, however, the fact that the sources of missing data are themselves unmeasured means that (in general) this issue cannot be addressed in analysis and the estimate of effect will likely be biased."
 
+  true function? unknown. might be a formula containing multiple parameters -> simplify the problem and define the hidden mechanism manually.\
+  EM algorithm? How to define the mechanism by using EM? Are we inviting some function describing the relationship between variables? Try to approximate the distribution of original value by updating the parameters in the EM algorithm.
+  what about categorical variables? how to impute?
   
 - 01/07/2024
 
