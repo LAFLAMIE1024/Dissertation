@@ -94,7 +94,9 @@
   EM algorithm? How to define the mechanism by using EM? Are we inviting some function describing the relationship between variables? Try to approximate the distribution of original value by updating the parameters in the EM algorithm.
   what about categorical variables? how to impute?
   
-- 01/07/2024
+- 22/07/2024
 
+  data set? house price
+  missing there? 
   
 - 01/07/2024
